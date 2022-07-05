@@ -1,0 +1,46 @@
+{
+  "name": "firebaseauth",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "prebuild": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "build": "cd android && gradlew assembleDebug && cd ../",
+    "clear": "cd android && gradlew clean && cd ../"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@react-native-firebase/app": "^14.11.0",
+    "@react-native-firebase/auth": "^14.11.0",
+    "@react-native-firebase/database": "^14.11.0",
+    "@react-navigation/bottom-tabs": "^6.3.1",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.1",
+    "@react-navigation/stack": "^6.2.1",
+    "gh-pages": "^4.0.0",
+    "react": "17.0.2",
+    "react-native": "0.68.1",
+    "react-native-safe-area-context": "^4.2.4",
+    "react-native-screens": "^3.13.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "metro-react-native-babel-preset": "^0.67.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

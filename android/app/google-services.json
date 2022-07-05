@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "779218074986",
+    "firebase_url": "https://native-app-auth-default-rtdb.firebaseio.com",
+    "project_id": "native-app-auth",
+    "storage_bucket": "native-app-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779218074986:android:19b757c95a4f6f443df913",
+        "android_client_info": {
+          "package_name": "com.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779218074986-op6i9v0mt47i10kkl69tohq5am02bjfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO4rcGWmEEBCT79Gxm8kwkJwaSk4amx0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779218074986-op6i9v0mt47i10kkl69tohq5am02bjfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
